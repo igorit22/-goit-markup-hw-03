@@ -76,6 +76,10 @@ body {
   line-height: 24px;
   font-style: normal;
 }
+.adress {
+  font-style: normal;
+}
+
 .site-nav .page-accent {
   color: var(--accent-sait-color);
 }
