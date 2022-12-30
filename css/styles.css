@@ -99,6 +99,7 @@ body {
 .button {
   background-color: var(--accent-sait-color);
   color: var(--btn-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
@@ -176,6 +177,7 @@ footer {
 .portfolio-nav {
   color: var(--accent-sait-color);
   background: #f4f4fd;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
