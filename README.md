@@ -1,4 +1,4 @@
-# -goit-markup-hw-03
+# goit-markup-hw-03
 HTML+CSS Homework #3
 
 Слова, часто используемые в CSS-классах
