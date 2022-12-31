@@ -27,9 +27,6 @@ body {
 }
 .list {
   list-style: none;
-  /* margin: 0;
-  padding: 0;
-  border: 0; */
 }
 
 .visually-hidden {
@@ -48,12 +45,15 @@ body {
 /* Logo styles */
 
 .logo {
+  display: inline-block;
   color: var(--second--text-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3;
   text-decoration: none;
+  outline: 2px solid tomato;
+  margin: 24px 1159px 24px 156px;
 }
 
 .logo-accent {
@@ -62,12 +62,19 @@ body {
 
 /* Site nav */
 
-.site-nav {
+.main-con a {
+  display: inline-block;
+}
+
+.site-nav > li{
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
   line-height: 24px;
   letter-spacing: var(--typical-ls);
+  outline: 2px solid tomato;
+  margin: 0;
 }
 
 .site-nav a {
@@ -79,11 +86,10 @@ body {
   line-height: var(--typical-lh);
   line-height: 24px;
   font-style: normal;
+  outline: 2px solid tomato;
 }
 .adress {
   font-style: normal;
-  margin: 0;
-  padding: 0;
 }
 
 .site-nav .page-accent {
@@ -203,7 +209,6 @@ footer {
 /* --------Contacts styles------------------ */
 
 .map {
-  width: 1400px;
-  display: block;
-  margin: auto;
+  margin-left: -30px;
+  outline: 2px solid tomato;
 }
