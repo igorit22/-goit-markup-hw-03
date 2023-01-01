@@ -13,12 +13,15 @@
   --btn-color: #ffffff;
   --typical-lh: 1.5;
   --typical-ls: 0.02em;
+  
+  --outline: 2px solid tomato;
 }
 
 body {
   background-color: #ffffff;
   color: var(--main-text-color);
   font-family: "Roboto", sans-serif;
+  /* border-color: transparent; */
 }
 
 /* Website utilities */
@@ -26,7 +29,10 @@ body {
   text-decoration: none;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
+  outline: var(--outline);
 }
 
 .visually-hidden {
@@ -42,6 +48,25 @@ body {
   overflow: hidden;
 }
 
+/* -------------Header---------- */
+
+.page-header {
+  background-color: #ccc;
+}
+
+.container {
+  width: 1152px;
+  margin: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  
+  
+  outline: var(--outline);
+}
+
+
+
 /* Logo styles */
 
 .logo {
@@ -52,8 +77,9 @@ body {
   font-size: 18px;
   line-height: 1.3;
   text-decoration: none;
-  outline: 2px solid tomato;
   margin: 24px 1159px 24px 156px;
+
+  outline: var(--outline);
 }
 
 .logo-accent {
@@ -62,10 +88,6 @@ body {
 
 /* Site nav */
 
-.main-con a {
-  display: inline-block;
-}
-
 .site-nav > li{
   display: inline-block;
   font-weight: 500;
@@ -73,20 +95,26 @@ body {
   line-height: var(--typical-lh);
   line-height: 24px;
   letter-spacing: var(--typical-ls);
-  outline: 2px solid tomato;
   margin: 0;
+
+
+  outline: var(--outline);
 }
 
 .site-nav a {
   color: var(--second--text-color);
 }
 .contacts a {
+  display: inline-block;
   color: var(--main-text-color);
   font-size: 16px;
   line-height: var(--typical-lh);
   line-height: 24px;
   font-style: normal;
-  outline: 2px solid tomato;
+  
+  
+  
+  outline: var(--outline);
 }
 .adress {
   font-style: normal;
@@ -101,25 +129,42 @@ body {
 .hero {
   background-color: var(--second--text-color);
   color: #ffffff;
-}
+  text-align: center;
+  
+
+  outline: var(--outline);
+  }
 
 .hero-title {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: var(--typical-ls);
+  margin-top: 100px;
+  
+  
+  outline: var(--outline);
 }
 .button {
+  display: inline-block;
   background-color: var(--accent-sait-color);
   color: var(--btn-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border: none;
-  line-height: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
   cursor: pointer;
+  padding: 16px 32px;
+  text-align: center;
+
+
+
+  outline: var(--outline);
 }
 
 .button:hover,
@@ -143,11 +188,17 @@ body {
   line-height: 1.2;
   letter-spacing: var(--typical-ls);
   color: var(--second--text-color);
+
+
+  outline: var(--outline);
 }
 .sections-text {
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: var(--typical-ls);
+
+
+  outline: var(--outline);
 }
 
 /* -------------What are we doing------------- */
@@ -158,20 +209,34 @@ body {
   letter-spacing: var(--typical-ls);
   text-transform: capitalize;
   color: var(--second--text-color);
+  text-align: center;
+
+
+  outline: var(--outline);
 }
 
 /* --------------------Team--------- */
 
 .team-section {
   background: #f4f4fd;
+
+
+  outline: var(--outline);
 }
 .team-cards {
   background: #ffffff;
+
+
+  outline: var(--outline);
 }
 /* ----------------Footer ----------*/
 
 footer {
   background-color: var(--second--text-color);
+
+
+
+  outline: var(--outline);
 }
 .logo-light {
   color: #f4f4fd;
@@ -182,7 +247,11 @@ footer {
   line-height: var(--typical-lh);
   letter-spacing: var(--typical-ls);
   color: #e7e9fc;
+
+
+  outline: var(--outline);
 }
+
 
 /* --------Portfolio styles------------------ */
 
@@ -198,6 +267,9 @@ footer {
   border-radius: 4px;
   letter-spacing: 0.04em;
   cursor: pointer;
+
+
+  outline: var(--outline);
 }
 
 .portfolio-nav:hover,
@@ -210,5 +282,7 @@ footer {
 
 .map {
   margin-left: -30px;
+  
+  
   outline: 2px solid tomato;
 }
