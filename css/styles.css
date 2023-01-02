@@ -32,6 +32,9 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
+
+
+
   outline: var(--outline);
 }
 
@@ -55,7 +58,7 @@ body {
 }
 
 .container {
-  width: 1152px;
+  width: 1158px;
   margin: auto;
   padding-left: 12px;
   padding-right: 12px;
@@ -130,22 +133,28 @@ body {
   background-color: var(--second--text-color);
   color: #ffffff;
   text-align: center;
+  width: 1134px;
+  height: 600px;
+  margin-top: 100;
+  
   
 
   outline: var(--outline);
   }
 
 .hero-title {
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: 48px;
+  /* display: inline-block; */
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: var(--typical-ls);
-  margin-top: 100px;
-  
+  margin-top: 100;
   
   outline: var(--outline);
+}
+
+.point {
+  display: inline;
+  margin: 10px;
 }
 .button {
   display: inline-block;
@@ -161,6 +170,8 @@ body {
   cursor: pointer;
   padding: 16px 32px;
   text-align: center;
+  margin-top: 150px;
+
 
 
 
@@ -188,6 +199,8 @@ body {
   line-height: 1.2;
   letter-spacing: var(--typical-ls);
   color: var(--second--text-color);
+  margin-top: 0;
+  margin-bottom: ;
 
 
   outline: var(--outline);
@@ -196,6 +209,7 @@ body {
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: var(--typical-ls);
+  margin: 0;
 
 
   outline: var(--outline);
@@ -210,6 +224,8 @@ body {
   text-transform: capitalize;
   color: var(--second--text-color);
   text-align: center;
+  margin-top: 0;
+  margin-bottom: ;
 
 
   outline: var(--outline);
@@ -281,8 +297,14 @@ footer {
 /* --------Contacts styles------------------ */
 
 .map {
-  margin-left: -30px;
+  
   
   
   outline: 2px solid tomato;
+}
+.image{
+  width: 1135px;
+  height: 300px;
+  background: url('/images/map_eng.gif') no-repeat center center;
+  background-size: cover;
 }
