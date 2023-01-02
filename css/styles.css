@@ -53,10 +53,6 @@ body {
 
 /* -------------Header---------- */
 
-.page-header {
-  background-color: #ccc;
-}
-
 .container {
   width: 1158px;
   margin: auto;
@@ -80,7 +76,7 @@ body {
   font-size: 18px;
   line-height: 1.3;
   text-decoration: none;
-  margin: 24px 1159px 24px 156px;
+  /* margin: 24px 1159px 24px 156px; */
 
   outline: var(--outline);
 }
@@ -108,17 +104,19 @@ body {
   color: var(--second--text-color);
 }
 .contacts a {
-  display: inline-block;
   color: var(--main-text-color);
   font-size: 16px;
   line-height: var(--typical-lh);
   line-height: 24px;
   font-style: normal;
-  
-  
-  
   outline: var(--outline);
 }
+
+.contacts {
+  display: flex;
+
+}
+
 .adress {
   font-style: normal;
 }
@@ -135,7 +133,7 @@ body {
   text-align: center;
   width: 1134px;
   height: 600px;
-  margin-top: 100;
+  margin: 0;
   
   
 
@@ -143,11 +141,11 @@ body {
   }
 
 .hero-title {
-  /* display: inline-block; */
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: var(--typical-ls);
-  margin-top: 100;
+  margin: 0;
+  padding-top: 200px;
   
   outline: var(--outline);
 }
@@ -157,7 +155,6 @@ body {
   margin: 10px;
 }
 .button {
-  display: inline-block;
   background-color: var(--accent-sait-color);
   color: var(--btn-color);
   font-family: inherit;
@@ -170,7 +167,7 @@ body {
   cursor: pointer;
   padding: 16px 32px;
   text-align: center;
-  margin-top: 150px;
+  margin: 0;
 
 
 
