@@ -87,8 +87,11 @@ body {
 
 /* Site nav */
 
+.site-nav {
+  display: flex;
+}
+
 .site-nav > li{
-  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
@@ -211,6 +214,9 @@ body {
 
   outline: var(--outline);
 }
+.features-list {
+  display: flex;
+}
 
 /* -------------What are we doing------------- */
 
@@ -227,7 +233,9 @@ body {
 
   outline: var(--outline);
 }
-
+.doing-img {
+  display: flex;
+}
 /* --------------------Team--------- */
 
 .team-section {
@@ -241,6 +249,9 @@ body {
 
 
   outline: var(--outline);
+}
+.team-list {
+  display: flex;
 }
 /* ----------------Footer ----------*/
 
@@ -268,6 +279,15 @@ footer {
 
 /* --------Portfolio styles------------------ */
 
+.portfolio-nav-list {
+  display: flex;
+
+}
+
+.portfolio-list {
+  display: flex;
+
+}
 .portfolio-nav {
   color: var(--accent-sait-color);
   background: #f4f4fd;
