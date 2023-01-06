@@ -95,6 +95,19 @@ body {
   color: var(--accent-sait-color);
 }
 
+.logo-footer {
+  display: inline-block;
+  color: var(--second--text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  text-decoration: none;
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 16px;
+}
+
 /* Site nav */
 
 .site-nav-item{
@@ -156,10 +169,10 @@ outline: var(--outline);
 /* Hero styles */
 
 .hero {
-
   background-color: var(--second--text-color);
   color: #ffffff;
   text-align: center;
+  height: 600px;
   
 
   outline: var(--outline);
@@ -170,7 +183,7 @@ outline: var(--outline);
   line-height: 1.07;
   letter-spacing: var(--typical-ls);
   margin: 0;
-  padding-top: 200px;
+  padding-top: 188px;
   
   outline: var(--outline);
 }
@@ -189,6 +202,8 @@ outline: var(--outline);
   padding: 16px 32px;
   text-align: center;
   margin: 0;
+  margin-bottom: 188px;
+  margin-top: 48px;
 
 
 
@@ -217,8 +232,11 @@ outline: var(--outline);
   line-height: 1.2;
   letter-spacing: var(--typical-ls);
   color: var(--second--text-color);
-  margin-top: 0;
-  margin-bottom: ;
+  margin: 0;
+  margin-top: 120px;
+  width: 264px;
+  /* margin-right: 24px; */
+
 
 
   outline: var(--outline);
@@ -228,13 +246,21 @@ outline: var(--outline);
   line-height: var(--typical-lh);
   letter-spacing: var(--typical-ls);
   margin: 0;
-
+  margin-top: 8px;
+  width: 264px;
 
   outline: var(--outline);
 }
+
+
 .features-list {
   display: flex;
 }
+
+.sections-subtitle:not(:last-child) {
+  margin-right: 24px;
+}
+
 
 /* -------------What are we doing------------- */
 
@@ -245,8 +271,10 @@ outline: var(--outline);
   text-transform: capitalize;
   color: var(--second--text-color);
   text-align: center;
-  margin-top: 0;
-  margin-bottom: ;
+  margin: 0;
+  margin-top: 120px;
+  margin-bottom: 72px;
+
 
 
   outline: var(--outline);
@@ -270,11 +298,16 @@ outline: var(--outline);
 }
 .team-list {
   display: flex;
+
+
 }
+
+
 /* ----------------Footer ----------*/
 
 footer {
   background-color: var(--second--text-color);
+  height: 310px;
 
 
 
@@ -289,6 +322,9 @@ footer {
   line-height: var(--typical-lh);
   letter-spacing: var(--typical-ls);
   color: #e7e9fc;
+  margin: 0;
+  width: 264px;
+  margin-bottom: 100px;
 
 
   outline: var(--outline);
