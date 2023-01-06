@@ -55,7 +55,7 @@ body {
 
 .container {
   width: 1158px;
-  margin: auto;
+  margin: 0 auto;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 10px;
@@ -68,6 +68,13 @@ body {
 
 /* Logo styles */
 
+.header-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+
+}
 .logo {
   display: inline-block;
   color: var(--second--text-color);
@@ -76,65 +83,83 @@ body {
   font-size: 18px;
   line-height: 1.3;
   text-decoration: none;
-  /* margin: 24px 1159px 24px 156px; */
+  margin: 0;
+  margin-right: 76px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 
+  
   outline: var(--outline);
 }
-
 .logo-accent {
   color: var(--accent-sait-color);
 }
 
 /* Site nav */
 
-.site-nav {
-  display: flex;
-}
-
-.site-nav > li{
+.site-nav-item{
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
   line-height: 24px;
   letter-spacing: var(--typical-ls);
   margin: 0;
+  margin-right: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 
 
-  outline: var(--outline);
+
+outline: var(--outline);
 }
-
-.site-nav a {
+.site-nav .site-nav-item:last-child {
+  margin-right: 332px;
+}
+.contacts .contacts-item:not(:last-child) {
+  margin-right: 40px;
+}
+.site-nav-link {
   color: var(--second--text-color);
+
 }
-.contacts a {
+.contacts-link {
   color: var(--main-text-color);
   font-size: 16px;
   line-height: var(--typical-lh);
   line-height: 24px;
   font-style: normal;
+
+  
+
+
+
   outline: var(--outline);
 }
-
 .contacts {
   display: flex;
 
-}
 
+
+}
+.contacts-item {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 .adress {
   font-style: normal;
 }
-
-.site-nav .page-accent {
+.page-accent {
   color: var(--accent-sait-color);
 }
 
 /* Hero styles */
 
 .hero {
+
   background-color: var(--second--text-color);
   color: #ffffff;
   text-align: center;
-
   
 
   outline: var(--outline);
@@ -150,10 +175,6 @@ body {
   outline: var(--outline);
 }
 
-.point {
-  display: inline;
-  margin: 10px;
-}
 .button {
   background-color: var(--accent-sait-color);
   color: var(--btn-color);
