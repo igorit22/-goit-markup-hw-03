@@ -64,8 +64,6 @@ body {
   outline: var(--outline);
 }
 
-
-
 /* Logo styles */
 
 .header-box {
@@ -125,7 +123,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
-  line-height: 24px;
   letter-spacing: var(--typical-ls);
   
 
@@ -147,7 +144,6 @@ outline: var(--outline);
   color: var(--main-text-color);
   font-size: 16px;
   line-height: var(--typical-lh);
-  line-height: 24px;
   font-style: normal;
 
   
