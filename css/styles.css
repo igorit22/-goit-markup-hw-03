@@ -28,7 +28,7 @@ address {
   margin: 0;
 }
 
-/* Website utilities */
+/* -----------------Website utilities-------------------- */
 .line {
   text-decoration: none;
 }
@@ -52,12 +52,12 @@ address {
   overflow: hidden;
 }
 
-/* -------------Header---------- */
+/* --------------------Header------------------ */
 
 .page-header {
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: #E7E9FC;
+  border-bottom-color: #e7e9fc;
 }
 
 .container {
@@ -73,7 +73,7 @@ address {
   align-items: center;
 }
 
-/* Logo styles */
+/* --------------Logo styles-------------------- */
 
 .logo {
   margin-top: 24px;
@@ -93,7 +93,7 @@ address {
   color: var(--accent-sait-color);
 }
 
-/* Site nav */
+/* --------------Site nav--------------------- */
 
 .site-nav {
   display: flex;
@@ -160,7 +160,8 @@ address {
 .contacts-link:active {
   color: var(--main-hover-color);
 }
-/* Hero styles */
+
+/* -------------Hero styles------------- */
 
 .hero {
   height: 600px;
@@ -179,8 +180,6 @@ address {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: var(--typical-ls);
-  margin: 0;
-  padding-top: 188px;
 
   outline: var(--outline);
 }
@@ -380,6 +379,9 @@ footer {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 
   color: var(--accent-sait-color);
   background: #f4f4fd;
@@ -387,14 +389,9 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
-  line-height: 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
   letter-spacing: 0.04em;
   cursor: pointer;
-  padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
+  
 
   outline: var(--outline);
 }
@@ -415,8 +412,6 @@ footer {
   display: block;
   margin: 0;
   margin-bottom: 48px;
-
-  border: 1px solid #e7e9fc;
   width: 360px;
 
   outline: var(--outline);
@@ -444,9 +439,25 @@ footer {
   margin-bottom: 120px;
 }
 
+.portfolio-sup-container {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #e7e9fc;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e7e9fc;
+
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #e7e9fc;
+
+  outline: var(--outline);
+}
+
 .portfolio-subtitle {
   margin: 0;
-  margin-top: 32px;
+  padding-top: 32px;
   margin-left: 16px;
 
   font-weight: 500;
@@ -475,7 +486,7 @@ footer {
 
 .contacts-list {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   flex-direction: column;
 }
 
@@ -543,12 +554,11 @@ footer {
   display: block;
   margin-right: 40px;
 }
-.map {
-  outline: var(--outline);
-}
-.image {
+.map-image {
   display: block;
   width: 1128px;
   height: 300px;
   margin-bottom: 120px;
+
+  outline: var(--outline);
 }
