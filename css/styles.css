@@ -54,6 +54,12 @@ address {
 
 /* -------------Header---------- */
 
+.page-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #E7E9FC;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
