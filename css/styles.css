@@ -15,7 +15,7 @@
   --typical-ls: 0.02em;
   
 
-  --outline: 1px solid tomato;
+  /* --outline: 1px solid tomato; */
 }
 
 body {
@@ -127,7 +127,9 @@ address {
   color: var(--main-hover-color);
 }
 
-
+.site-nav-link:active {
+  color: var(--main-hover-color);
+}
 
 .site-nav .site-nav-item:not(:last-child) {
   margin-right: 40px;
@@ -161,6 +163,10 @@ address {
 
 .contacts-link:hover,
 .contacts-link:focus {
+  color: var(--main-hover-color);
+}
+
+.contacts-link:active {
   color: var(--main-hover-color);
 }
 /* Hero styles */
@@ -218,14 +224,6 @@ address {
 .button:hover,
 .button:focus {
   background-color: var(--main-hover-color);
-}
-
-.line:hover,
-.line:focus {
-  color: var(--main-hover-color);
-}
-.line:active {
-  color: var(--main-hover-color);
 }
 
 /* ------------------Features--------------- */
@@ -312,6 +310,11 @@ address {
 
 
   outline: var(--outline);
+}
+
+.team-title {
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .team-cards {
   margin: 0;
