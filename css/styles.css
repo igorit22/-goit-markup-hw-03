@@ -14,7 +14,7 @@
   --typical-lh: 1.5;
   --typical-ls: 0.02em;
   
-  /* --outline: 2px solid tomato; */
+  --outline: 2px solid tomato;
 }
 
 body {
@@ -73,6 +73,7 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   margin: 0 auto;
+  align-items: center;
 
 }
 .logo {
