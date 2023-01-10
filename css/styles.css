@@ -369,6 +369,7 @@ address {
   margin: 0;
   padding: 0;
   padding-bottom: 16px;
+  padding-top: 16px;
 
   color: var(--second--text-color);
   font-family: "Raleway", sans-serif;
@@ -396,10 +397,15 @@ address {
 
 /* --------Portfolio styles------------------ */
 
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+
+}
+
 .portfolio-nav-list {
   display: flex;
   margin: 0;
-  margin-top: 96px;
   margin-bottom: 72px;
   justify-content: center;
 }
@@ -412,9 +418,7 @@ address {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
+
 
   color: var(--accent-sait-color);
   background: #f4f4fd;
@@ -435,19 +439,30 @@ address {
   color: #ffffff;
 }
 
+/* ----------- Portfolio cards ----------- */
+
 .portfolio-list {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .portfolio-cards {
   display: block;
   margin: 0;
+  margin-right: 24px;
   margin-bottom: 48px;
+
   width: 360px;
 
   outline: var(--outline);
+}
+
+.portfolio-cards:nth-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio-cards:nth-child(n + 7) {
+  margin-bottom: 0;
 }
 
 .portfolio-img {
@@ -455,24 +470,12 @@ address {
   width: auto;
 }
 
-.portfolio-cards:nth-child(3n + 4) {
-  margin-right: 0;
-  /* background-color: tomato; */
-  margin-left: 24px;
-}
-
-.portfolio-cards:nth-child(3n + 2) {
-  margin-left: 0;
-  /* background-color: teal; */
-  margin-right: 24px;
-}
-
-.portfolio-cards:nth-last-child(-n + 3) {
-  /* background-color: violet; */
-  margin-bottom: 120px;
-}
 
 .portfolio-sup-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+
   border-right-width: 1px;
   border-right-style: solid;
   border-right-color: #e7e9fc;
@@ -490,8 +493,6 @@ address {
 
 .portfolio-subtitle {
   margin: 0;
-  padding-top: 32px;
-  margin-left: 16px;
 
   font-weight: 500;
   font-size: 20px;
@@ -505,8 +506,6 @@ address {
 .portfolio-text {
   margin: 0;
   margin-top: 8px;
-  margin-bottom: 32px;
-  margin-left: 16px;
 
   font-size: 16px;
   line-height: var(--typical-lh);
@@ -517,21 +516,13 @@ address {
 
 /* --------Contacts styles------------------ */
 
-.contacts-list {
-  display: flex;
-  margin-bottom: 60px;
-  flex-direction: column;
-}
-
-.contacts-item-cont {
-  display: flex;
-  align-items: center;
-  margin-bottom: 40px;
+.contacts-page {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .sections-title-cont {
   margin: 0;
-  margin-top: 60px;
   margin-bottom: 60px;
 
   font-size: 36px;
@@ -542,6 +533,12 @@ address {
   text-align: center;
 
   outline: var(--outline);
+}
+
+.contacts-item-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 .contacts-points-text {
@@ -555,35 +552,7 @@ address {
   color: var(--second--text-color);
 }
 
-.contacts-subtitle {
-  margin: 0;
-  margin-top: 60px;
-  margin-bottom: 30px;
-  text-align: center;
-
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.2;
-  letter-spacing: var(--typical-ls);
-  color: var(--second--text-color);
-
-  outline: var(--outline);
-}
-
-.contacts-text {
-  margin: 0;
-  margin-left: 40px;
-
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: var(--typical-ls);
-  color: var(--second--text-color);
-
-  outline: var(--outline);
-}
-
-.contacts-point {
+.contacts-icon {
   display: block;
   margin-right: 40px;
 }
@@ -591,7 +560,6 @@ address {
   display: block;
   width: 1128px;
   height: 300px;
-  margin-bottom: 120px;
 
   outline: var(--outline);
 }
