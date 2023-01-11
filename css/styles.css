@@ -265,12 +265,13 @@ address {
 
 .features-list {
   display: flex;
+  gap: 24px;
 
 }
 
-.features-item:not(:last-child) {
+/* .features-item:not(:last-child) {
   margin-right: 24px;
-}
+} */
 
 
 /* -------------What are we doing------------- */
@@ -296,6 +297,7 @@ address {
 .doing-img {
   display: flex;
   margin: 0;
+  gap: 24px;
 }
 
 .img-style {
@@ -303,9 +305,9 @@ address {
   border: 1px solid #e7e9fc;
 }
 
-.img-item:not(:last-child) {
+/* .img-item:not(:last-child) {
   margin-right: 24px;
-}
+} */
 /* --------------------Team--------- */
 
 .team-section {
@@ -320,6 +322,11 @@ address {
 .team-title {
   margin-bottom: 72px;
 }
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .team-cards {
   margin: 0;
 
@@ -332,13 +339,10 @@ address {
   outline: var(--outline);
 }
 
-.team-cards:not(:last-child) {
+/* .team-cards:not(:last-child) {
   margin-right: 24px;
-}
+} */
 
-.team-list {
-  display: flex;
-}
 
 .team-persons {
   padding-top: 32px;
@@ -450,26 +454,30 @@ address {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-cards {
   display: block;
   margin: 0;
-  margin-right: 24px;
-  margin-bottom: 48px;
+  column-gap: 24px;
+  row-gap: 48px;
+  /* margin-right: 24px;
+  margin-bottom: 48px; */
 
   width: 360px;
 
   outline: var(--outline);
 }
 
-.portfolio-cards:nth-child(3n) {
+/* .portfolio-cards:nth-child(3n) {
   margin-right: 0;
 }
 
 .portfolio-cards:nth-child(n + 7) {
   margin-bottom: 0;
-}
+} */
 
 .portfolio-img {
   display: block;
