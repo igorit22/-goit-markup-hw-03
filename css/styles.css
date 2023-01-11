@@ -61,7 +61,7 @@ address {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -72,6 +72,7 @@ address {
 .header-box {
   display: flex;
   justify-content: space-between;
+  /* align-items: center; */
 
 }
 
@@ -108,8 +109,7 @@ address {
 }
 
 .site-nav-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display: block;
 
   font-weight: 500;
   font-size: 16px;
@@ -121,8 +121,10 @@ address {
 }
 
 .site-nav-link {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  display: block;
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   color: var(--second--text-color);
 }
@@ -145,17 +147,19 @@ address {
 }
 
 .contacts-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display: block;
+  margin: 0;
 }
 
-.contacts .contacts-item:not(:last-child) {
+.contacts-item:not(:last-child) {
   margin-right: 40px;
 }
 
 .contacts-link {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0;
 
 
   color: var(--main-text-color);
@@ -231,7 +235,7 @@ address {
 
 .features-section {
   padding-top: 120px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 
 .sections-subtitle {
@@ -272,7 +276,6 @@ address {
 /* -------------What are we doing------------- */
 
 .doing-section {
-  padding-top: 60px;
   padding-bottom: 120px;
 }
 
@@ -296,6 +299,7 @@ address {
 }
 
 .img-style {
+  display: block;
   border: 1px solid #e7e9fc;
 }
 
@@ -352,6 +356,9 @@ address {
   text-align: center;
 }
 
+.team-photo {
+  display: block;
+}
 
 /* ----------------Footer ----------*/
 
@@ -368,8 +375,7 @@ address {
   display: inline-block;
   margin: 0;
   padding: 0;
-  padding-bottom: 16px;
-  padding-top: 16px;
+  margin-bottom: 16px;
 
   color: var(--second--text-color);
   font-family: "Raleway", sans-serif;
